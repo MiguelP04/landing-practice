@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+}
+svg{
+    width: 14px;
+    height: 14px;
+}
+nav{
+    background-color: rgb(69, 134, 254);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 8px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+nav div {
+    display: flex;
+}
+
+
+.info > * {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.info span:hover {
+    color: #ff6
+}
+
+span > p{
+    margin: 2px;
+}
